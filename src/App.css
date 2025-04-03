@@ -1,0 +1,36 @@
+.container-app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, hsla(323, 50%, 87%, 1) 20%, hsla(342, 66%, 76%, 1) 64%, hsla(341, 66%, 67%, 1) 100%);
+}
+
+.links{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #E27396;
+  border: 2px solid #EAF2D7;
+  border-radius: 10px;
+  width: 400px;
+  height: 90px;
+  margin: 10px;
+  color: #EAF2D7;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 20px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #E27396;
+  color: #EAF2D7;
+}
+
+.icones{
+  margin: 13px;
+}
